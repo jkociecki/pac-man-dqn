@@ -34,9 +34,8 @@ In the current game settings, Pac-Man has a significant handicap with an extende
 - **Reward Shaping**: Custom reward function that encourages strategic behavior
 
 ## Gameplay Examples
-Below are a few recorded gameplay samples showing different stages of training and strategic behaviors. You can see how the agent progresses from random movements to increasingly sophisticated strategies:
-
-![one of the training episodes](https://github.com/user-attachments/assets/b69cf1cc-1ec7-45a6-a5f4-e80fc5f367bc)
+one of the training episodes
+![gifgif](https://github.com/user-attachments/assets/de87e4c5-0f56-40ad-b763-a0953732ad56)
 
 
 ## Usage
