@@ -36,8 +36,7 @@ In the current game settings, Pac-Man has a significant handicap with an extende
 ## Gameplay Examples
 Below are a few recorded gameplay samples showing different stages of training and strategic behaviors. You can see how the agent progresses from random movements to increasingly sophisticated strategies:
 
-![Early training gameplay](https://github.com/user-attachments/assets/48e2ef70-c6cd-4b7a-b8c3-cd5a5f356796)
-![Advanced strategy gameplay](https://github.com/user-attachments/assets/b69cf1cc-1ec7-45a6-a5f4-e80fc5f367bc)
+![one of the training episodes](https://github.com/user-attachments/assets/b69cf1cc-1ec7-45a6-a5f4-e80fc5f367bc)
 
 
 ## Usage
