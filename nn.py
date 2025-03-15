@@ -1,9 +1,14 @@
 import gc
 import time
-import pygame
 from tqdm import tqdm
 from main import Pacman, Ghost, Maze, GameState, Bonus, MAZE_LAYOUT
-from game_core import *
+import os
+from collections import deque
+import torch
+from torch import optim
+from dqn_config import DQNConfig
+from agent import PrioritizedReplayBuffer, HybridDQN
+import torch.nn.functional as F
 from game_core import *
 
 
@@ -396,18 +401,6 @@ def evaluate_agent(agent, env, num_episodes=10, render=True):
     return np.mean(total_scores)
 
 
-import os
-import random
-from collections import deque
-
-import numpy as np
-import torch
-from torch import optim
-
-from dqn_config import DQNConfig
-from agent import PrioritizedReplayBuffer, HybridDQN
-import torch.nn.functional as F
-
 
 # Optimized DQN agent
 class AdvancedDQNAgent:
@@ -761,5 +754,4 @@ if __name__ == "__main__":
         )
 
     elif args.mode == "play":
-        # Play game with trained agent
         play_pacman(model_path=args.model_path, fps=args.fps)
