@@ -35,6 +35,7 @@ In the current game settings, Pac-Man has a significant handicap with an extende
 
 ## Gameplay Examples
 one of the training episodes
+
 ![gifgif](https://github.com/user-attachments/assets/89ed21d0-19e8-4a7c-aa86-83fb38c40039)
 
 ## Usage
