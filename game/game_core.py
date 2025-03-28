@@ -120,7 +120,6 @@ class Pacman:
             ])
 
 
-# Klasa Duch
 class Ghost:
     def __init__(self, x, y, color):
         self.x = x
@@ -150,7 +149,7 @@ class Ghost:
 
         if self.change_direction_counter <= 0 or self.is_blocked(maze):
             self.choose_direction(maze, pacman)
-            self.change_direction_counter = random.randint(10, 30)  # Skrócony czas reakcji
+            self.change_direction_counter = random.randint(10, 30)
 
         new_x, new_y = self.x, self.y
 
@@ -326,7 +325,7 @@ class Bonus:
         self.y = y
         self.radius = CELL_SIZE // 3
         self.active = True
-        self.type = "cherry"  # Domyślnie wiśnie
+        self.type = "cherry"
 
     def draw(self, screen):
         if not self.active:
